@@ -23,7 +23,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost/e-arsip-ci4/public/';
+	public $baseURL = 'http://localhost/uasrekwebfinal/public/';
 
 	/*
 	|--------------------------------------------------------------------------

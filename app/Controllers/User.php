@@ -13,7 +13,6 @@ class User extends BaseController
         $this->Model_user = new Model_user();
         $this->Model_dep = new Model_dep();
         helper('form');
-       
     }
 
     public function index()
