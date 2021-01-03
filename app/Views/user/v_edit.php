@@ -26,7 +26,7 @@
                 <?php echo form_open_multipart('user/update/' . $user['id_user']); ?>
 
                 <div class="form-group">
-                    <label>Nama User</label>
+                    <label>Nama Admin</label>
                     <input name="nama_user" value="<?= $user['nama_user'] ?>" class="form-control" placeholder="Nama User">
                 </div>
 
@@ -68,7 +68,7 @@
 
                 <div class="row">
                     <div class="col-sm-4">
-                        <label>Foto User</label>
+                        <label>Foto Admin</label>
                         <img src="<?= base_url('foto/' . $user['foto']) ?>" width="100px">
                     </div>
                     <div class="col-sm-8">

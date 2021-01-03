@@ -5,7 +5,7 @@
         <li><a href="<?= base_url('kategori') ?>">Kategori</a></li>
         <li><a href="<?= base_url('dep') ?>">Departemen</a></li>
         <li><a href="<?= base_url('arsip') ?>">Arsip</a></li>
-        <li><a href="<?= base_url('user') ?>">User</a></li>
+        <li><a href="<?= base_url('user') ?>">Admin</a></li>
     </ul>
 </div>
 <!-- /.navbar-collapse -->
@@ -37,20 +37,6 @@
                     </p>
                 </li>
                 <!-- Menu Body -->
-                <li class="user-body">
-                    <div class="row">
-                        <div class="col-xs-4 text-center">
-                            <a href="#">Followers</a>
-                        </div>
-                        <div class="col-xs-4 text-center">
-                            <a href="#">Sales</a>
-                        </div>
-                        <div class="col-xs-4 text-center">
-                            <a href="#">Friends</a>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </li>
                 <!-- Menu Footer-->
                 <li class="user-footer">
                     <div class="pull-left">

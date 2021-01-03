@@ -2,7 +2,7 @@
     <div class="col-md-12">
         <div class="box box-primary box-solid">
             <div class="box-header with-border">
-                <h3 class="box-title">Data User</h3>
+                <h3 class="box-title">Data Admin</h3>
 
                 <div class="box-tools pull-right">
                     <a href="<?= base_url('user/add') ?>" class="btn btn-primary btn-sm btn-flat">
@@ -26,11 +26,11 @@
                     <thead>
                         <tr>
                             <th width="80px">No</th>
-                            <th>Nama User</th>
+                            <th>Nama Admin</th>
                             <th>E-Mail</th>
                             <th>Password</th>
                             <th>Level</th>
-                            <th>Departemen</th>
+                            <th>Departement</th>
                             <th>Foto</th>
                             <th width="100px">Action</th>
                         </tr>

@@ -58,7 +58,7 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Add Departemen</h4>
+                <h4 class="modal-title">Add Departement</h4>
             </div>
             <div class="modal-body">
                 <?php
@@ -66,8 +66,8 @@
                 ?>
 
                 <div class="form-group">
-                    <label>Nama Departemen</label>
-                    <input name="nama_dep" class="form-control" placeholder="Departemen" required>
+                    <label>Nama Departement</label>
+                    <input name="nama_dep" class="form-control" placeholder="Departement" required>
                 </div>
 
             </div>
@@ -92,7 +92,7 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Edit Departemen</h4>
+                    <h4 class="modal-title">Edit Departement</h4>
                 </div>
                 <div class="modal-body">
                     <?php
@@ -127,7 +127,7 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Delete Departemen</h4>
+                    <h4 class="modal-title">Delete Departement</h4>
                 </div>
                 <div class="modal-body">
 

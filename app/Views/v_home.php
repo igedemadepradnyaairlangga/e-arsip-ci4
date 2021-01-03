@@ -19,7 +19,7 @@
             <div class="inner">
                 <h3><?= $tot_kategori ?></h3>
 
-                <p>Kategori</p>
+                <p>Category</p>
             </div>
             <div class="icon">
                 <i class="fa fa-bookmark-o"></i>
@@ -34,7 +34,7 @@
             <div class="inner">
                 <h3><?= $tot_dep ?></h3>
 
-                <p>Departemen</p>
+                <p>Departement</p>
             </div>
             <div class="icon">
                 <i class="fa fa-building-o"></i>
@@ -49,7 +49,7 @@
             <div class="inner">
                 <h3><?= $tot_user ?></h3>
 
-                <p>User</p>
+                <p>Admin</p>
             </div>
             <div class="icon">
                 <i class="fa fa-user"></i>

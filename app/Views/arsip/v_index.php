@@ -2,7 +2,7 @@
     <div class="col-md-12">
         <div class="box box-primary box-solid">
             <div class="box-header with-border">
-                <h3 class="box-title">Data Document</h3>
+                <h3 class="box-title">Data Dokumen</h3>
 
                 <div class="box-tools pull-right">
                     <a href="<?= base_url('arsip/add') ?>" class="btn btn-primary btn-sm btn-flat">
@@ -26,8 +26,8 @@
                     <thead>
                         <tr>
                             <th>No</th>
-                            <th>No Arsip</th>
-                            <th>Nama Arsip</th>
+                            <th>No Dokumen</th>
+                            <th>Nama Dokumen</th>
                             <th>Kategori</th>
                             <th>Upload</th>
                             <th>Update</th>
