@@ -16,7 +16,7 @@ class Kategori extends BaseController
     public function index()
     {
         $data = array(
-            'title' => 'Kategori',
+            'title' => 'Category    ',
             'kategori' => $this->Model_kategori->all_data(),
             'isi'    => 'v_kategori'
         );

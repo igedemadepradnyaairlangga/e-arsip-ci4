@@ -4,7 +4,7 @@
     <div class="col-md-6">
         <div class="box box-primary box-solid">
             <div class="box-header with-border">
-                <h3 class="box-title">Edit User</h3>
+                <h3 class="box-title">Edit Admin</h3>
 
 
                 <!-- /.box-tools -->
@@ -45,16 +45,14 @@
                     <select name="level" class="form-control">
                         <option value="<?= $user['level'] ?>"><?php if ($user['level'] == 1) {
                                                                     echo 'Admin';
-                                                                } else {
-                                                                    echo 'User';
                                                                 } ?></option>
                         <option value="1">Admin</option>
-                        <option value="2">User</option>
+
                     </select>
                 </div>
 
                 <div class="form-group">
-                    <label>Departemen</label>
+                    <label>Departement</label>
                     <select name="id_dep" class="form-control">
                         <option value="<?= $user['id_dep'] ?>"><?= $user['nama_dep'] ?></option>
                         <?php foreach ($dep as $key => $value) { ?>

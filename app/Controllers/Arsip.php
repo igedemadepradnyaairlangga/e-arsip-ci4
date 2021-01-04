@@ -18,7 +18,7 @@ class Arsip extends BaseController
     public function index()
     {
         $data = array(
-            'title' => 'Arsip',
+            'title' => 'Document',
             'arsip' => $this->Model_arsip->all_data(),
             'isi'    => 'arsip/v_index'
         );
@@ -28,7 +28,7 @@ class Arsip extends BaseController
     public function add()
     {
         $data = array(
-            'title' => 'Add Arsip',
+            'title' => 'Add Document',
             'kategori' => $this->Model_kategori->all_data(),
             'isi'    => 'arsip/v_add'
         );
@@ -40,7 +40,7 @@ class Arsip extends BaseController
     {
         if ($this->validate([
             'nama_arsip' => [
-                'label'  => 'Nama Arsip',
+                'label'  => 'Nama Document',
                 'rules'  => 'required',
                 'errors' => [
                     'required' => '{field} Wajib Diisi !!!'
@@ -61,7 +61,7 @@ class Arsip extends BaseController
                 ]
             ],
             'file_arsip' => [
-                'label'  => 'File Arsip',
+                'label'  => 'File Document',
                 'rules'  => 'uploaded[file_arsip]|max_size[file_arsip,2048]|ext_in[file_arsip,pdf]',
                 'errors' => [
                     'uploaded' => '{field} Wajib Diisi !!!',
@@ -105,7 +105,7 @@ class Arsip extends BaseController
     public function edit($id_arsip)
     {
         $data = array(
-            'title' => 'Add Arsip',
+            'title' => 'Add Document',
             'kategori' => $this->Model_kategori->all_data(),
             'arsip'    => $this->Model_arsip->detail_data($id_arsip),
             'isi'    => 'arsip/v_edit'
@@ -117,7 +117,7 @@ class Arsip extends BaseController
     {
         if ($this->validate([
             'nama_arsip' => [
-                'label'  => 'Nama Arsip',
+                'label'  => 'Nama Document',
                 'rules'  => 'required',
                 'errors' => [
                     'required' => '{field} Wajib Diisi !!!'
@@ -138,7 +138,7 @@ class Arsip extends BaseController
                 ]
             ],
             'file_arsip' => [
-                'label'  => 'File Arsip',
+                'label'  => 'File Document',
                 'rules'  => 'max_size[file_arsip,2048]|ext_in[file_arsip,pdf]',
                 'errors' => [
                     'max_size' => 'Ukuran {field} Max 2048 KB !!!',
@@ -216,7 +216,7 @@ class Arsip extends BaseController
     public function viewpdf($id_arsip)
     {
         $data = array(
-            'title' => 'View Arsip',
+            'title' => 'View Document',
             'arsip' => $this->Model_arsip->detail_data($id_arsip),
             'isi'    => 'arsip/v_viewpdf'
         );

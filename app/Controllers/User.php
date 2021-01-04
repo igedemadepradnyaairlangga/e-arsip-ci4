@@ -18,7 +18,7 @@ class User extends BaseController
     public function index()
     {
         $data = array(
-            'title' => 'User',
+            'title' => 'Admin',
             'user' => $this->Model_user->all_data(),
             'isi'    => 'user/v_index'
         );
@@ -28,7 +28,7 @@ class User extends BaseController
     public function add()
     {
         $data = array(
-            'title' => 'Add User',
+            'title' => 'Add Admin',
             'dep' => $this->Model_dep->all_data(),
             'isi'    => 'user/v_add'
         );
@@ -39,7 +39,7 @@ class User extends BaseController
     {
         if ($this->validate([
             'nama_user' => [
-                'label'  => 'Nama User',
+                'label'  => 'Nama',
                 'rules'  => 'required',
                 'errors' => [
                     'required' => '{field} Wajib Diisi !!!'
@@ -112,7 +112,7 @@ class User extends BaseController
     public function edit($id_user)
     {
         $data = array(
-            'title' => 'Edit User',
+            'title' => 'Edit Admin',
             'dep' => $this->Model_dep->all_data(),
             'user' => $this->Model_user->detail_data($id_user),
             'isi'    => 'user/v_edit'
@@ -124,7 +124,7 @@ class User extends BaseController
     {
         if ($this->validate([
             'nama_user' => [
-                'label'  => 'Nama User',
+                'label'  => 'Nama Admin',
                 'rules'  => 'required',
                 'errors' => [
                     'required' => '{field} Wajib Diisi !!!'

@@ -26,12 +26,12 @@
                 ?>
 
                 <div class="form-group">
-                    <label>No Arsip</label>
+                    <label>No Document</label>
                     <input name="no_arsip" class="form-control" value="<?= $arsip['no_arsip']; ?>" readonly>
                 </div>
 
                 <div class="form-group">
-                    <label>Kategori</label>
+                    <label>Category</label>
                     <select name="id_kategori" class="form-control">
                         <option value="<?= $arsip['id_kategori'] ?>"><?= $arsip['nama_kategori'] ?></option>
                         <?php foreach ($kategori as $key => $value) { ?>
@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label>Nama Arsip</label>
+                    <label>Nama Document</label>
                     <input name="nama_arsip" value="<?= $arsip['nama_arsip'] ?>" class="form-control" placeholder="Nama Arsip">
                 </div>
 

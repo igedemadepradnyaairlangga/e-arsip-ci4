@@ -2,7 +2,7 @@
     <div class="col-md-12">
         <div class="box box-primary box-solid">
             <div class="box-header with-border">
-                <h3 class="box-title">Data Kategori</h3>
+                <h3 class="box-title">Data Category</h3>
 
                 <div class="box-tools pull-right">
                     <button type="button" class="btn btn-primary btn-sm btn-flat" data-toggle="modal" data-target="#add">
@@ -25,7 +25,7 @@
                     <thead>
                         <tr>
                             <th width="80px">No</th>
-                            <th>Kategori</th>
+                            <th>Category</th>
                             <th width="100px">Action</th>
                         </tr>
                     </thead>
@@ -58,7 +58,7 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Add Kategori</h4>
+                <h4 class="modal-title">Add Category</h4>
             </div>
             <div class="modal-body">
                 <?php
@@ -66,14 +66,14 @@
                 ?>
 
                 <div class="form-group">
-                    <label>Kategori</label>
-                    <input name="nama_kategori" class="form-control" placeholder="Kategori" required>
+                    <label>Category</label>
+                    <input name="nama_kategori" class="form-control" placeholder="Category  " required>
                 </div>
 
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary">Simpan</button>
+                <button type="submit" class="btn btn-primary">Save</button>
             </div>
             <?php echo form_close() ?>
         </div>
@@ -92,7 +92,7 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Edit Kategori</h4>
+                    <h4 class="modal-title">Edit Category</h4>
                 </div>
                 <div class="modal-body">
                     <?php
@@ -127,7 +127,7 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Hapus Kategori</h4>
+                    <h4 class="modal-title">Delete Category</h4>
                 </div>
                 <div class="modal-body">
 

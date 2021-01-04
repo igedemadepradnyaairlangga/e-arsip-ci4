@@ -4,7 +4,7 @@
     <div class="col-md-6">
         <div class="box box-primary box-solid">
             <div class="box-header with-border">
-                <h3 class="box-title">Add Arsip</h3>
+                <h3 class="box-title">Add Document</h3>
                 <!-- /.box-tools -->
             </div>
             <!-- /.box-header -->
@@ -28,14 +28,14 @@
                 ?>
 
                 <div class="form-group">
-                    <label>No Arsip</label>
+                    <label>No</label>
                     <input name="no_arsip" class="form-control" value="<?= $no_arsip ?>" readonly>
                 </div>
 
                 <div class="form-group">
-                    <label>Kategori</label>
+                    <label>Category</label>
                     <select name="id_kategori" class="form-control">
-                        <option value="">--Pilih Kategori--</option>
+                        <option value="">--Choose Category--</option>
                         <?php foreach ($kategori as $key => $value) { ?>
                             <option value="<?= $value['id_kategori'] ?>"><?= $value['nama_kategori'] ?></option>
                         <?php } ?>
@@ -44,8 +44,8 @@
                 </div>
 
                 <div class="form-group">
-                    <label>Nama Arsip</label>
-                    <input name="nama_arsip" class="form-control" placeholder="Nama Arsip">
+                    <label>Nama</label>
+                    <input name="nama_arsip" class="form-control" placeholder="Nama Document">
                 </div>
 
                 <div class="form-group">
@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label>File Arsip</label>
+                    <label>File</label>
                     <input type="file" name="file_arsip" class="form-control">
                     <label class="text-danger">File Harus Format .PDF</label>
                 </div>

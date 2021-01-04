@@ -26,7 +26,7 @@
                     <thead>
                         <tr>
                             <th width="80px">No</th>
-                            <th>Nama Admin</th>
+                            <th>Nama </th>
                             <th>E-Mail</th>
                             <th>Password</th>
                             <th>Level</th>
@@ -76,11 +76,11 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Hapus User</h4>
+                    <h4 class="modal-title">Hapus Admin</h4>
                 </div>
                 <div class="modal-body">
 
-                    Apakah Anda Yakin Ingin Hapus <b><?= $value['nama_user']; ?></b>..?
+                    Apakah Anda Yakin Ingin Hapus <b><?= $value['nama_user']; ?></b>?
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Tidak</button>

@@ -2,9 +2,9 @@
 <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
     <ul class="nav navbar-nav">
         <li class="active"><a href="<?= base_url('home') ?>">Home</a></li>
-        <li><a href="<?= base_url('kategori') ?>">Kategori</a></li>
-        <li><a href="<?= base_url('dep') ?>">Departemen</a></li>
-        <li><a href="<?= base_url('arsip') ?>">Arsip</a></li>
+        <li><a href="<?= base_url('kategori') ?>">Category</a></li>
+        <li><a href="<?= base_url('dep') ?>">Departement</a></li>
+        <li><a href="<?= base_url('arsip') ?>">Document</a></li>
         <li><a href="<?= base_url('user') ?>">Admin</a></li>
     </ul>
 </div>
@@ -33,15 +33,12 @@
                                                                 } else {
                                                                     echo 'User';
                                                                 } ?>
-                        <small><?= date('h-M-Y') ?></small>
+                        <small><?php echo "" . date("d-m-Y"); ?></small>
                     </p>
                 </li>
                 <!-- Menu Body -->
                 <!-- Menu Footer-->
                 <li class="user-footer">
-                    <div class="pull-left">
-                        <a href="#" class="btn btn-default btn-flat">Profile</a>
-                    </div>
                     <div class="pull-right">
                         <a href="<?= base_url('auth/logout') ?>" class="btn btn-default btn-flat">Logout</a>
                     </div>
@@ -65,7 +62,7 @@
 
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> E-Arsip</a></li>
+                <li><a href="#"><i class="fa fa-dashboard"></i> E-Document</a></li>
                 <li class="active"><?= $title ?></li>
             </ol>
         </section>

@@ -16,7 +16,7 @@ class Dep extends BaseController
     public function index()
     {
         $data = array(
-            'title' => 'Departemen',
+            'title' => 'Departement',
             'dep' => $this->Model_dep->all_data(),
             'isi'    => 'v_dep'
         );
