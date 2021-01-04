@@ -60,15 +60,6 @@ class Arsip extends BaseController
                     'required' => '{field} Wajib Diisi !!!',
                 ]
             ],
-            'file_arsip' => [
-                'label'  => 'File Document',
-                'rules'  => 'uploaded[file_arsip]|max_size[file_arsip,2048]|ext_in[file_arsip,pdf]',
-                'errors' => [
-                    'uploaded' => '{field} Wajib Diisi !!!',
-                    'max_size' => 'Ukuran {field} Max 2048 KB !!!',
-                    'ext_in' => 'Format {field} Wajib .PDF',
-                ]
-            ],
         ])) {
             //mengambil file foto yg akan di upload di form
             $file_arsip = $this->request->getFile('file_arsip');
@@ -135,14 +126,6 @@ class Arsip extends BaseController
                 'rules'  => 'required',
                 'errors' => [
                     'required' => '{field} Wajib Diisi !!!',
-                ]
-            ],
-            'file_arsip' => [
-                'label'  => 'File Document',
-                'rules'  => 'max_size[file_arsip,2048]|ext_in[file_arsip,pdf]',
-                'errors' => [
-                    'max_size' => 'Ukuran {field} Max 2048 KB !!!',
-                    'ext_in' => 'Format {field} Wajib .PDF',
                 ]
             ],
         ])) {

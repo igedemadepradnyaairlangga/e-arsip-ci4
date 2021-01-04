@@ -31,7 +31,7 @@
                             <th>Kategori</th>
                             <th>Upload</th>
                             <th>Update</th>
-                            <th>User</th>
+                            <th>Admin</th>
                             <th>Departemen</th>
                             <th>File</th>
                             <th width="100px">Action</th>
