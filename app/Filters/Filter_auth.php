@@ -12,7 +12,7 @@ class Filter_auth implements FilterInterface
     {
         // Do something here
         if (session()->get('log') != true) {
-            session()->setFlashdata('pesan', 'Anda Belum Login, Login Dulu Coy !!!');
+            session()->setFlashdata('pesan', 'Anda Belum Login, Silahkan Login Terlebih Dahulu');
             return redirect()->to(base_url('auth'));
         }
     }
