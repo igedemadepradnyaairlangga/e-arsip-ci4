@@ -96,7 +96,7 @@ class Arsip extends BaseController
     public function edit($id_arsip)
     {
         $data = array(
-            'title' => 'Add Document',
+            'title' => 'Edit Document',
             'kategori' => $this->Model_kategori->all_data(),
             'arsip'    => $this->Model_arsip->detail_data($id_arsip),
             'isi'    => 'arsip/v_edit'

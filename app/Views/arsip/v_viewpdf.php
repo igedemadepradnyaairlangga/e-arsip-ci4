@@ -29,7 +29,7 @@
                 <th>Departemen</th>
                 <th>:</th>
                 <td><?= $arsip['nama_dep'] ?></td>
-                <th>User</th>
+                <th>Admin</th>
                 <th>:</th>
                 <td><?= $arsip['nama_user'] ?></td>
             </tr>
